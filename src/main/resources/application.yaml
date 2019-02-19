@@ -1,0 +1,21 @@
+app:
+    datasources:
+        source1:
+          driver: com.mysql.jdbc.Driver
+          name: ${SOURCE_1_NAME:source1}
+          url: ${SOURCE_1_URL:jdbc:mysql://localhost:3306/source1}
+          username: ${SOURCE_1_USERNAME:source1}
+          password: ${SOURCE_1_PASSWORD:Aa123456}
+        source2:
+          driver: com.mysql.jdbc.Driver
+          name: ${SOURCE_2_NAME:source2}
+          url: ${SOURCE_2_URL:jdbc:mysql://localhost:3306/source2}
+          username: ${SOURCE_2_USERNAME:source2}
+          password: ${SOURCE_2_PASSWORD:Aa123456}
+        source3:
+          driver: com.mysql.jdbc.Driver
+          name: ${SOURCE_2_NAME:source3}
+          url: ${SOURCE_3_URL:jdbc:mysql://localhost:3306/source3}
+          username: ${SOURCE_3_USERNAME:source3}
+          password: ${SOURCE_3_PASSWORD:Aa123456}
+
